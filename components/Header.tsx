@@ -29,9 +29,9 @@ export default function Header() {
         <div className="hidden md:flex md:flex-col md:items-end">
           <a
             href="tel:+79304024548"
-            className="font-bold text-lg hover:text-amber-600 flex items-center gap-1"
+            className="font-bold text-lg hover:text-amber-600 text-black flex items-center gap-1"
           >
-            <PhoneIcon className="h-5 w-5" />
+            <PhoneIcon className="h-5 w-5 text-black" />
             +7 (930) 402-45-48
           </a>
           <span className="text-sm text-gray-600 flex items-center gap-1 mt-1">
@@ -80,9 +80,9 @@ export default function Header() {
               <li>
                 <a
                   href="tel:+79304024548"
-                  className="py-2 font-medium hover:text-amber-600 flex items-center gap-2"
+                  className="py-2 font-medium hover:text-amber-600 text-black flex items-center gap-2"
                 >
-                  <PhoneIcon className="h-5 w-5" />
+                  <PhoneIcon className="h-5 w-5 text-black" />
                   +7 (930) 402-45-48
                 </a>
               </li>
