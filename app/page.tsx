@@ -141,7 +141,9 @@ export default function Home() {
                     <CheckCircleIcon className="h-6 w-6 text-amber-600 flex-shrink-0" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">{feature.title}</h3>
+                    <h3 className="font-bold text-lg text-black mb-1">
+                      {feature.title}
+                    </h3>
                     <p className="text-gray-600">{feature.desc}</p>
                   </div>
                 </div>
