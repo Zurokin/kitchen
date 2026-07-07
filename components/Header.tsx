@@ -57,7 +57,7 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <nav className="container mx-auto px-4 py-4">
-            <ul className="space-y-3">
+            <ul className="space-y-3 text-black">
               {[
                 ["Кухни", "/kitchens"],
                 ["Гардеробные", "/wardrobes"],
